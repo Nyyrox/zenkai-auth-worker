@@ -1,0 +1,16 @@
+﻿{
+  "name": "zenkai-auth-worker",
+  "version": "1.0.0",
+  "description": "ZENKAI Auth & Deep Link Gateway Worker for Supabase OAuth & Mobile Deep Linking",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "keywords": ["zenkai", "cloudflare-worker", "supabase", "auth", "deep-link"],
+  "author": "Nyyrox",
+  "license": "MIT",
+  "devDependencies": {
+    "wrangler": "^3.114.0"
+  }
+}
